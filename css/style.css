@@ -6,26 +6,58 @@
 
 
 body{
-    background-color: rgb(224, 80, 114);
+    background-color: #e05072;
     margin: 10% 15%;
 }
 
-header h1{
+h1{
     text-align: center;
+    color: white;
+    padding-bottom: 3%;
 }
 
 ul{
     list-style-type: none; 
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
 }
 
 ul li{
     text-align: center;
 }
 
-#form{
+li h4{
+    margin-bottom: 10%;
+    font-size: 20px;
+}
+
+#form, #biglietto{
     background-color: white;
     text-align: center;
     border-radius: 10px;
+    padding: 3% 5%;
+}
+
+input{
+    height: 50%;
+    width: 200px;
+    border-radius: 5px;
+    border: solid 1px #e05072;
+}
+
+button{
+    text-align: center;
+    border: solid 1px black;
+    font-size: 14px;
+    color: #e05072;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0 2%;
+}
+
+button:hover{
+    border: solid 1px #e05072;
 }
