@@ -7,36 +7,43 @@
 
 body{
     background-color: #e05072;
-    margin: 10% 15%;
+    margin: 0 15%;
 }
 
 h1{
     text-align: center;
     color: white;
     padding-bottom: 3%;
+    padding-top: 10%;
 }
 
 ul{
     list-style-type: none; 
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 5%;
 }
 
-ul li{
+#form ul li{
     text-align: center;
 }
 
-li h4{
+#form li h4 {
     margin-bottom: 10%;
+}
+
+li h4{
     font-size: 20px;
 }
 
 #form, #biglietto{
     background-color: white;
-    text-align: center;
+    
     border-radius: 10px;
     padding: 3% 5%;
+}
+
+#form{
+    text-align: center;
 }
 
 input{
@@ -56,8 +63,48 @@ button{
     padding: 5px;
     border-radius: 5px;
     margin: 0 2%;
+    margin-top: 5%;
 }
 
 button:hover{
     border: solid 1px #e05072;
+    cursor: pointer;
+}
+
+#biglietto li:first-of-type{
+    background-color: rgb(171, 171, 171);
+}
+
+
+#biglietto li:first-of-type {
+        padding-left: 5%;
+        padding-right: 5%;
+}
+
+#biglietto li:first-of-type p{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#biglietto li{
+    padding: 5% 0;
+}
+
+#biglietto ul{
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    justify-content: space-between;
+
+}
+
+#biglietto p{
+    margin-top: 40px;
+}
+
+.nascondi{
+    display: none;
+}
+
+.mostra{
+    display: block;
 }
